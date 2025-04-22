@@ -26,6 +26,8 @@ public class Principal {
 		Random r = new Random();
 		int numAleatorio = r.nextInt(numero)+1;
 		
+		new CalculosMatematicos().calcularMCD(numero, numAleatorio);
+		
 
 	}
 

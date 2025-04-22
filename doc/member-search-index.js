@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"saraMatei","c":"CalculosMatematicos","l":"calcularMCD(int, int)","u":"calcularMCD(int,int)"},{"p":"saraMatei","c":"CalculosMatematicos","l":"CalculosMatematicos()","u":"%3Cinit%3E()"},{"p":"saraMatei","c":"CalculosMatematicos","l":"calculosRefactorizados(int)"}];updateSearchResults();

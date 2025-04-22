@@ -18,6 +18,9 @@ public class Principal {
 		System.out.println("El dato introducido no es un número");
 		return;
 		}
+		
+		CalculosMatematicos misCalculosMatematicos = new CalculosMatematicos();
+		misCalculosMatematicos.calculosRefactorizados(numero);
 
 
 	}

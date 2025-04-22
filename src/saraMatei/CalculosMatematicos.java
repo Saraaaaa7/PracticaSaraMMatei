@@ -1,12 +1,28 @@
 package saraMatei;
 
+/**
+ * Un programa que hace algunos cálculos matemáticos
+ * @author Sara Matei
+ * @since 22/4/2025
+ * @version 1.1
+ */
+
 import java.util.ArrayList;
 
 public class CalculosMatematicos {
 	
+	/**
+	 * Constructor
+	 */
+	
 	public CalculosMatematicos() {		
 	}
 
+	/**
+	 * Método que hace cálculos
+	 * @param numero 
+	 */
+	
 	public void calculosRefactorizados(int numero) {
 		
 		
@@ -27,6 +43,13 @@ public class CalculosMatematicos {
 		} else System.out.println("El número "+numero+ " SI es primo");
 	}
 
+	/**
+	 * Método que valida si un número es primo o no
+	 * @param numero
+	 * @param noEsPrimo
+	 * @return
+	 */
+	
 	private boolean validarPrimos(int numero, boolean noEsPrimo) {
 		for (int  i = 2; i< numero ; i++) {
 			noEsPrimo = false;			
@@ -38,6 +61,14 @@ public class CalculosMatematicos {
 		return noEsPrimo;
 	}
 
+	/**
+	 * Método que saca los factoriales primos
+	 * @param numero
+	 * @param miArray
+	 * @param noEsPrimo
+	 * @return
+	 */
+	
 	private boolean factorialesPrimos(int numero, ArrayList<Integer> miArray, boolean noEsPrimo) {
 		int j;
 		for (int  i = 2; i< numero ; i++) {
@@ -58,6 +89,13 @@ public class CalculosMatematicos {
 	}
 	
 	// Método para calcular el MCD usando el algoritmo de Euclides
+	
+	/**
+	 * Método que calcula el máximo común divisor
+	 * @param numA
+	 * @param numB
+	 */
+	
 	public void calcularMCD(int numA, int numB) {
 		int a = numA, b = numB;
 			while (b != 0) {
